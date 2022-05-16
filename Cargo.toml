@@ -1,0 +1,15 @@
+[package]
+name = "oci-annotations"
+version = "0.1.0-v1.0"
+edition = "2021"
+keywords = ["oci", "docker", "image"]
+license = "MIT"
+
+description = "oci image annotations"
+categories = ["api-bindings"]
+repository = "https://github.com/lizelive/oci-annotations"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
