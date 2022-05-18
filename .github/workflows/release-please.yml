@@ -11,4 +11,3 @@ jobs:
         with:
           release-type: rust
           package-name: oci-annotations
-          command: github-release
